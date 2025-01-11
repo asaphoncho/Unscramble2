@@ -9105,14 +9105,12 @@ function Zf({ name: e, onChange: n }) {
             style: { backgroundColor: "#ffebcd00", border: "none" },
             onClick: l,
             children: y.jsx("i", {
-              className: t ? "fa-regular fa-circle-check" : "fa-solid fa-pen",
+              className: t
+                ? "fa-regular fa-circle-check"
+                : "fa-solid fa-pencil",
               style: t
                 ? { fontSize: "1.5rem", cursor: "pointer" }
-                : {
-                    fontSize: "1.1rem",
-                    cursor: "pointer",
-                    fontColor: "3C3B3B",
-                  },
+                : { fontSize: "1rem", cursor: "pointer", fontColor: "3C3B3B" },
             }),
           }),
         ],
